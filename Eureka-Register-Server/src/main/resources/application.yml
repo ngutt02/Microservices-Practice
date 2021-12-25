@@ -1,0 +1,14 @@
+spring:
+  application: 
+   name: Eureka
+
+server:
+   port: 2222
+
+eureka: 
+  client:
+    service-url:
+          defultZone: http://Eur1:2222/eureka
+    eureka-server-port: 2222
+  us-east-2:
+       availabilityZone: us-east-2a       

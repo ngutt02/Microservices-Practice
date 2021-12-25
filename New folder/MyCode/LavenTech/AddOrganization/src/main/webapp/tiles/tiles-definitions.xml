@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tiles-definitions PUBLIC "-//Apache Software Foundation//DTD Tiles Configuration 3.0//EN" "http://tiles.apache.org/dtds/tiles-config_3_0.dtd">
+
+<tiles-definitions>
+
+	<!-- Base Tiles Definition -->
+
+	<definition name="mainLayout" template="/jsp/layout/QPAPLoginLayout.jsp">
+		<put-attribute name="body" value="" />
+	</definition>
+	
+	
+	<definition name="LoginWelcome" extends="mainLayout">
+		<put-attribute name="body" value="/jsp/LoginWelcome.jsp" />
+	</definition>
+	
+	
+	<definition name="AddOrganisation" extends="mainLayout">
+		<put-attribute name="body" value="/jsp/masters/AddOrganisation.jsp" />
+	</definition>
+	
+	<definition name="AddOrgDetails" extends="mainLayout">
+		<put-attribute name="body" value="/jsp/masters/AddUniversity.jsp" />
+	</definition>
+	
+	
+	<definition name="AddCourse" extends="mainLayout">
+		<put-attribute name="body" value="/jsp/masters/AddCourse.jsp" />
+	</definition>
+	
+	<definition name="AddCourseGroup" extends="mainLayout">
+		<put-attribute name="body" value="/jsp/masters/AddCourseGroup.jsp" />
+	</definition>
+	
+	<definition name="AddSubjects" extends="mainLayout">
+		<put-attribute name="body" value="/jsp/masters/AddSubjects.jsp" />
+	</definition>
+	
+	<definition name="MapSubjectstoCourse" extends="mainLayout">
+		<put-attribute name="body" value="/jsp/masters/MapSubjectstoCourse.jsp" />
+	</definition>
+	
+	<definition name="AddCollege" extends="mainLayout">
+		<put-attribute name="body" value="/jsp/masters/AddCollege.jsp" />
+	</definition>
+	
+	<definition name="AddChapter" extends="mainLayout">
+		<put-attribute name="body" value="/jsp/masters/AddChapter.jsp" />
+	</definition>
+	
+	<definition name="AddSubChapter" extends="mainLayout">
+		<put-attribute name="body" value="/jsp/masters/AddSubChapter.jsp" />
+	</definition>
+	
+	<definition name="MapCoursetoCollege" extends="mainLayout">
+		<put-attribute name="body" value="/jsp/masters/MapCoursetoCollege.jsp" />
+	</definition>
+	
+	<definition name="MapSubjectstoLecturer" extends="mainLayout">
+		<put-attribute name="body" value="/jsp/masters/MapSubjectstoLecturer.jsp" />
+	</definition>
+	
+	<definition name="AddLecturer" extends="mainLayout">
+		<put-attribute name="body" value="/jsp/masters/AddLecturer.jsp" />
+	</definition>
+	
+	<definition name="eCurriculum" extends="mainLayout">
+		<put-attribute name="body" value="/jsp/masters/e-Curriculum.jsp" />
+	</definition>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	 
+	
+</tiles-definitions>
